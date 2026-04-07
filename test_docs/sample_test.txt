@@ -1,0 +1,5 @@
+Machine Learning is a subset of AI
+
+It focuses on algorithms that learn from data
+
+Neural networks are inspired by the brain.

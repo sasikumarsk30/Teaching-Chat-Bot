@@ -1,0 +1,47 @@
+# Virtual Environment
+venv/
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment
+.env
+.env.production
+.env.local
+
+# Data (keep structure, ignore contents)
+data/documents/*
+!data/documents/.gitkeep
+data/chunks/*
+!data/chunks/.gitkeep
+data/embeddings/*
+!data/embeddings/.gitkeep
+data/audio/*
+!data/audio/.gitkeep
+data/duckdb/*
+!data/duckdb/.gitkeep
+
+# Model weights
+models/embeddings/*
+!models/embeddings/.gitkeep
+models/tts/*
+!models/tts/.gitkeep
+models/llm/*
+!models/llm/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg
